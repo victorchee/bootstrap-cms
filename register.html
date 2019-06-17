@@ -17,9 +17,9 @@
 				<a href="#" class="navbar-brand"><span style="color: yellow;">CMS SYSTEM</span></a>
 			</div>
 			<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="#">HOME</a></li>
+				<li><a href="index.html">HOME</a></li>
 				<li><a href="blog.html">BLOGS</a></li>
-				<li><a href="register.html">REGISTER</a></li>
+				<li class="active"><a href="#">REGISTER</a></li>
 				<li><a href="#">LOGOUT</a></li>
 			</ul>
 		</div>
@@ -28,58 +28,69 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
-				<div class="panel panel-info">
-					<div class="panel-heading">
-						<h3>This is the title <small> <u>4/ October / 2019</u></small></h3>
-					</div>
-					<div class="panel-body">
-						<div class="col-md-4">
-							<img src="./image/cat.jpg" class="img-responsive" />
-						</div>
-						<div class="col-md-8">
-							<p>
-								It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters. 
-								<button class="btn btn-success">Read More</button>
-							</p>
-						</div>
-					</div>
-				</div>
-
-				
-				<div class="panel panel-info">
-					<div class="panel-heading">
-						<h3>This is the title <small> <u>4/ October / 2019</u></small></h3>
-					</div>
-					<div class="panel-body">
-						<div class="col-md-4">
-							<img src="./image/cat.jpg" class="img-responsive" />
-						</div>
-						<div class="col-md-8">
-							<p>
-								It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters. 
-								<button class="btn btn-success">Read More</button>
-							</p>
-						</div>
-					</div>
-				</div>
-
-
-				<div class="panel panel-info">
-					<div class="panel-heading">
-						<h3>This is the title <small> <u>4/ October / 2019</u></small></h3>
-					</div>
-					<div class="panel-body">
-						<div class="col-md-4">
-							<img src="./image/cat.jpg" class="img-responsive" />
-						</div>
-						<div class="col-md-8">
-							<p>
-								It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters. 
-								<button class="btn btn-success">Read More</button>
-							</p>
-						</div>
-					</div>
-				</div>
+                <div class="page-header">
+                    <h2>Registration Form:</h2>
+                </div>
+				<form class="form-horizontal">
+                    <div class="form-group row">
+                        <label class="col-md-3 control-label">Your Name *</label>
+                        <div class="col-md-8">
+                            <input type="text" placeholder="your name please..." class="form-control" required />
+                        </div>
+                    </div>
+                </form>
+				<form class="form-horizontal">
+                    <div class="form-group row">
+                        <label class="col-md-3 control-label">Your Email *</label>
+                        <div class="col-md-8">
+                            <input type="email" placeholder="your email please..." class="form-control" required />
+                        </div>
+                    </div>
+                </form>
+				<form class="form-horizontal">
+                    <div class="form-group row">
+                        <label class="col-md-3 control-label">Your Password *</label>
+                        <div class="col-md-8">
+                            <input type="password" placeholder="your password please..." class="form-control" required />
+                        </div>
+                    </div>
+                </form>
+				<form class="form-horizontal">
+                    <div class="form-group row">
+                        <label class="col-md-3 control-label">Confirm Password *</label>
+                        <div class="col-md-8">
+                            <input type="password" placeholder="confirm password please..." class="form-control" required />
+                        </div>
+                    </div>
+                </form>
+				<form class="form-horizontal">
+                    <div class="form-group row">
+                        <label class="col-md-3 control-label">Marital Status *</label>
+                        <div class="col-md-3">
+                            <select class="form-control">
+                                <option>Select Status:</option>
+                                <option>Single</option>
+                                <option>Married</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <label class="col-md-2 control-label">Your Gender *</label>
+                        <div class="col-md-3">
+                            <select class="form-control">
+                                <option>Your Gender:</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                            <div class="form-group row">
+                                <label class="col-md-3 control-label"></label>
+                                <div class="col-md-8">
+                                    <button class="btn btn-danger btn-block">Register Now!</button>
+                                </div>
+                            </div>
+                    </div>
+                </form>
 			</div>
 			<!--=======================================================-->
 			<div class="col-md-4">
