@@ -29,9 +29,11 @@
         <div class="col-md-3">
             <ul class="navbar navbar-default nav">
                 <li><a href="#"><span class="glyphicon glyphicon-dashboard"></span> Dashboard</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-plus"></span> New Item</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-pencil"></span> Write Post</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-edit"></span> Write Categories</a></li>
+                <li><a href="#new-name" data-toggle="collapse"><span class="glyphicon glyphicon-plus"></span> New Item</a></li>
+                <ul id="new-name" class="nav collapse">
+                    <li><a href="#"><div class="col-md-1"></div><span class="glyphicon glyphicon-pencil"></span> Write Post</a></li>
+                    <li><a href="#"><div class="col-md-1"></div><span class="glyphicon glyphicon-edit"></span> Write Categories</a></li>
+                </ul>
                 <li><a href="#"><span class="glyphicon glyphicon-list"></span> Posts</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-tasks"></span> Categories</a></li>
             </ul>
@@ -55,7 +57,7 @@
                         <a href="#">
                             <div class="panel-footer">
                                 <div class="pull-left">View Posts</div>
-                                <div class="pull-right"><span class="glyphicon glyphicon-tasks"></span></div>
+                                <div class="pull-right"><span class="glyphicon glyphicon-circle-arrow-right"></span></div>
                                 <div class="clearfix"></div>
                             </div>
                         </a>
@@ -78,7 +80,7 @@
                         <a href="#">
                             <div class="panel-footer">
                                 <div class="pull-left">View Posts</div>
-                                <div class="pull-right"><span class="glyphicon glyphicon-tasks"></span></div>
+                                <div class="pull-right"><span class="glyphicon glyphicon-circle-arrow-right"></span></div>
                                 <div class="clearfix"></div>
                             </div>
                         </a>
@@ -131,6 +133,132 @@
                     </div>
                 </div>
             </div>
+            <!--=========================================-->
+            <!--new table code here-->
+            <div class="row">
+                <div class="col-md-8">
+                        <div class="panel panel-default">
+                                <div class="panel-heading">Admin</div>
+                                <div class="panel-body">
+                                    <table class="table table-striped">
+                                        <tr>
+                                            <th>S.NO</th>
+                                            <th>Name</th>
+                                            <th>Designation</th>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Victor Chee</td>
+                                            <td>Software Engineer</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Victor</td>
+                                            <td>Software Engineer</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Chee</td>
+                                            <td>Software Engineer</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Categories</div>
+                        <div class="panel-body">
+                            <table class="table table-striped">
+                                <tr>
+                                    <th>S.NO</th>
+                                    <th>Name</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Web designing</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Graphic designing</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                        <td>Software engineer</td>
+                                    </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--new table code here-->
+            <div class="panel panel-default">
+                <div class="panel-heading">Latest Posts</div>
+                <div class="panel-body">
+                    <table class="table table-striped">
+                        <tr>
+                            <th>S.NO</th>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th>Category</th>
+                            <th>Date</th>
+                            <th>Author</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Bootstrap</td>
+                            <td>We are learning bootstrap to design responsive website</td>
+                            <td>web development</td>
+                            <td>7 / October / 2019</td>
+                            <td>Victor Chee</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Bootstrap</td>
+                            <td>We are learning bootstrap to design responsive website</td>
+                            <td>web development</td>
+                            <td>7 / October / 2019</td>
+                            <td>Victor Chee</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Bootstrap</td>
+                            <td>We are learning bootstrap to design responsive website</td>
+                            <td>web development</td>
+                            <td>7 / October / 2019</td>
+                            <td>Victor Chee</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Bootstrap</td>
+                            <td>We are learning bootstrap to design responsive website</td>
+                            <td>web development</td>
+                            <td>7 / October / 2019</td>
+                            <td>Victor Chee</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Bootstrap</td>
+                            <td>We are learning bootstrap to design responsive website</td>
+                            <td>web development</td>
+                            <td>7 / October / 2019</td>
+                            <td>Victor Chee</td>
+                        </tr>
+                    </table>
+                    <!--code for the pagination-->
+                    <div class="text-center">
+                        <ul class="pagination pagination-md">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                        </ul>
+                    </div>
+                    <!--code for the pagination-->
+                </div>
+            </div>
+            <!--=========================================-->
         </div>
         <!--=========================================-->
     </div>
