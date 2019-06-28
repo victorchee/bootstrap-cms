@@ -27,23 +27,31 @@
 				</li>
 			</ul>
         </nav>
-    <!--=========================================-->
-    <div class="container-fluid">
+
+        <div class="container-fluid row">
         <div class="col-md-3">
-            <ul class="navbar navbar-default nav">
-                <li><a href="index.html"><span class="glyphicon glyphicon-dashboard"></span> Dashboard</a></li>
-                <li><a href="#new-name" data-toggle="collapse"><span class="glyphicon glyphicon-plus"></span> New Item</a></li>
-                <ul id="new-name" class="nav collapse">
-                    <li><a href="#"><div class="col-md-1"></div><span class="glyphicon glyphicon-pencil"></span> Write Post</a></li>
-                    <li><a href="new_category.html"><div class="col-md-1"></div><span class="glyphicon glyphicon-edit"></span> Write Categories</a></li>
+            <ul class="nav flex-column bg-light">
+                <li class="nav-item"><a class="nav-link" href="index.html"><span class="oi oi-aperture"></span>
+                        Dashboard</a></li>
+                <li class="nav-item"><a class="nav-link" href="#create" data-toggle="collapse"><span
+                            class="oi oi-plus"></span> New Item</a></li>
+                <ul id="create" class="collapse">
+                    <li class="nav-item"><a class="nav-link active" href="#">
+                            <div class="col-md-1"></div><span class="oi oi-pencil"></span> Write Post
+                        </a></li>
+                    <li class="nav-item"><a class="nav-link" href="new_category.html">
+                            <div class="col-md-1"></div><span class="oi oi-paperclip"></span> Write Categories
+                        </a></li>
                 </ul>
-                <li><a href="post.html"><span class="glyphicon glyphicon-list"></span> Posts</a></li>
-                <li><a href="category.html"><span class="glyphicon glyphicon-tasks"></span> Categories</a></li>
+                <li class="nav-item"><a class="nav-link" href="post.html"><span class="oi oi-list"></span></span>
+                        Posts</a></li>
+                <li class="nav-item"><a class="nav-link" href="category.html"><span class="oi oi-menu"></span>
+                        Categories</a></li>
             </ul>
         </div>
-        <!--=========================================-->
+
         <div class="col-md-9">
-            <div class="page-header">
+            <div class="pb-2 mt-4 mb-2 border-bottom">
                 <h2>Create New Post</h2>
             </div>
             <form>
@@ -68,7 +76,6 @@
                 </div>
             </form>
         </div>
-        <!--=========================================-->
     </div>
 
 
